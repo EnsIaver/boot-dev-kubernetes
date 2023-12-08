@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap # https://kubernetes.io/docs/concepts/configuration/configmap/
 metadata:
-  name: synergychat-crawler-config-map
+  name: synergychat-crawler-configmap
 data:
   CRAWLER_PORT: "8080"
   CRAWLER_KEYWORDS: "love,hate,joy,sadness,anger,disgust,fear,surprise"
