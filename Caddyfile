@@ -1,0 +1,5 @@
+:9000
+
+reverse_proxy :8001 {
+    header_down Access-Control-Allow-Origin "*"
+}
